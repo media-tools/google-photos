@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePhotos", "GooglePhotos\GooglePhotos.csproj", "{702CBB28-8689-441F-AFDE-3DDCCF255742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Media", "..\..\core\Core\Core.Media\Core.Media.csproj", "{3AD9088F-8C19-4B98-ADB6-17909F8310F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Media.Google", "..\..\core\Core\Core.Media.Google\Core.Media.Google.csproj", "{7231C801-962B-4DBE-B093-D5AE4CBBF708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Media.Platform", "..\..\core\Core\Core.Media.Platform\Core.Media.Platform.csproj", "{AC137B05-53A1-4DC9-B8C6-D1CE3B1E4E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Google.Auth", "..\..\core\Core\Core.Google.Auth\Core.Google.Auth.csproj", "{E9911484-DF67-4306-9E9E-D35D33B07EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD9088F-8C19-4B98-ADB6-17909F8310F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3AD9088F-8C19-4B98-ADB6-17909F8310F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{3AD9088F-8C19-4B98-ADB6-17909F8310F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{3AD9088F-8C19-4B98-ADB6-17909F8310F8}.Release|x86.Build.0 = Release|Any CPU
+		{702CBB28-8689-441F-AFDE-3DDCCF255742}.Debug|x86.ActiveCfg = Debug|x86
+		{702CBB28-8689-441F-AFDE-3DDCCF255742}.Debug|x86.Build.0 = Debug|x86
+		{702CBB28-8689-441F-AFDE-3DDCCF255742}.Release|x86.ActiveCfg = Release|x86
+		{702CBB28-8689-441F-AFDE-3DDCCF255742}.Release|x86.Build.0 = Release|x86
+		{7231C801-962B-4DBE-B093-D5AE4CBBF708}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7231C801-962B-4DBE-B093-D5AE4CBBF708}.Debug|x86.Build.0 = Debug|Any CPU
+		{7231C801-962B-4DBE-B093-D5AE4CBBF708}.Release|x86.ActiveCfg = Release|Any CPU
+		{7231C801-962B-4DBE-B093-D5AE4CBBF708}.Release|x86.Build.0 = Release|Any CPU
+		{AC137B05-53A1-4DC9-B8C6-D1CE3B1E4E26}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AC137B05-53A1-4DC9-B8C6-D1CE3B1E4E26}.Debug|x86.Build.0 = Debug|Any CPU
+		{AC137B05-53A1-4DC9-B8C6-D1CE3B1E4E26}.Release|x86.ActiveCfg = Release|Any CPU
+		{AC137B05-53A1-4DC9-B8C6-D1CE3B1E4E26}.Release|x86.Build.0 = Release|Any CPU
+		{E9911484-DF67-4306-9E9E-D35D33B07EF1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E9911484-DF67-4306-9E9E-D35D33B07EF1}.Debug|x86.Build.0 = Debug|Any CPU
+		{E9911484-DF67-4306-9E9E-D35D33B07EF1}.Release|x86.ActiveCfg = Release|Any CPU
+		{E9911484-DF67-4306-9E9E-D35D33B07EF1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+EndGlobal
